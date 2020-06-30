@@ -1,0 +1,34 @@
+PODS:
+  - PINCache (3.0.1-beta.8):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.8)
+    - PINCache/Core (= 3.0.1-beta.8)
+  - PINCache/Arc-exception-safe (3.0.1-beta.8):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.8):
+    - PINOperation (~> 1.1.1)
+  - PINOperation (1.1.2)
+  - PINRemoteImage (3.0.0):
+    - PINRemoteImage/PINCache (= 3.0.0)
+  - PINRemoteImage/Core (3.0.0):
+    - PINOperation
+  - PINRemoteImage/PINCache (3.0.0):
+    - PINCache (= 3.0.1-beta.8)
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - PINRemoteImage
+
+SPEC REPOS:
+  trunk:
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+
+SPEC CHECKSUMS:
+  PINCache: 534fd41d358d828dfdf227a0d327f3673a65e20b
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
+  PINRemoteImage: e2b89e19fb6e77ffc099f9d9f3b3fe1745e3f9f9
+
+PODFILE CHECKSUM: 42760ec388bf2126bb64923c2577ceb9205177b9
+
+COCOAPODS: 1.9.3

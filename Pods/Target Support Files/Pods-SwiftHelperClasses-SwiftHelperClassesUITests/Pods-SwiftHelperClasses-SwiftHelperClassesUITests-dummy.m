@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SwiftHelperClasses_SwiftHelperClassesUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SwiftHelperClasses_SwiftHelperClassesUITests
+@end

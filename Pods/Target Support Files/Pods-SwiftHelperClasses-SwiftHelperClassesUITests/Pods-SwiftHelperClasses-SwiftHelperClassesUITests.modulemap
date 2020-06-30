@@ -1,0 +1,6 @@
+framework module Pods_SwiftHelperClasses_SwiftHelperClassesUITests {
+  umbrella header "Pods-SwiftHelperClasses-SwiftHelperClassesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SwiftHelperClasses/Pods-SwiftHelperClasses-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework
+${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework
+${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework
