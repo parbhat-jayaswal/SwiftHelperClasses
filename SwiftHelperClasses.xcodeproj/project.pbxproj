@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		45EEA5977EFFBA3DD49E8CCE /* Pods_SwiftHelperClasses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D39FCEFEE1283315011118 /* Pods_SwiftHelperClasses.framework */; };
 		B15E4140BF913C70D863EA50 /* Pods_SwiftHelperClasses_SwiftHelperClassesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF150ADCB5CDA79C2CEAE3C /* Pods_SwiftHelperClasses_SwiftHelperClassesUITests.framework */; };
-		D807B28224AB10D70048C94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B28124AB10D70048C94E /* AppDelegate.swift */; };
-		D807B28424AB10D70048C94E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B28324AB10D70048C94E /* SceneDelegate.swift */; };
 		D807B28624AB10D70048C94E /* TouchAuthonticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B28524AB10D70048C94E /* TouchAuthonticationVC.swift */; };
 		D807B28924AB10D70048C94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D807B28724AB10D70048C94E /* Main.storyboard */; };
 		D807B28B24AB10D90048C94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D807B28A24AB10D90048C94E /* Assets.xcassets */; };
@@ -26,6 +24,8 @@
 		D807B2C624AB14F30048C94E /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2C524AB14F30048C94E /* LoadableView.swift */; };
 		D807B2CA24AB1CA90048C94E /* WTFCatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D807B2C824AB1CA90048C94E /* WTFCatView.xib */; };
 		D807B2CB24AB1CA90048C94E /* WTFCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2C924AB1CA90048C94E /* WTFCatView.swift */; };
+		D807B2D024AB1E1E0048C94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2CF24AB1E1D0048C94E /* AppDelegate.swift */; };
+		D807B2D224AB1E250048C94E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2D124AB1E250048C94E /* SceneDelegate.swift */; };
 		DEE67A4406CEEC4305CD7EBB /* Pods_SwiftHelperClassesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E56E044951B701E605BF16 /* Pods_SwiftHelperClassesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +54,6 @@
 		65D39FCEFEE1283315011118 /* Pods_SwiftHelperClasses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHelperClasses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF150ADCB5CDA79C2CEAE3C /* Pods_SwiftHelperClasses_SwiftHelperClassesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHelperClasses_SwiftHelperClassesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D807B27E24AB10D70048C94E /* Swift Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D807B28124AB10D70048C94E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		D807B28324AB10D70048C94E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
 		D807B28524AB10D70048C94E /* TouchAuthonticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchAuthonticationVC.swift; sourceTree = "<group>"; };
 		D807B28824AB10D70048C94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D807B28A24AB10D90048C94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +74,8 @@
 		D807B2C524AB14F30048C94E /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
 		D807B2C824AB1CA90048C94E /* WTFCatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTFCatView.xib; sourceTree = "<group>"; };
 		D807B2C924AB1CA90048C94E /* WTFCatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFCatView.swift; sourceTree = "<group>"; };
+		D807B2CF24AB1E1D0048C94E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D807B2D124AB1E250048C94E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCA27AED916524B2EFE40795 /* Pods-SwiftHelperClassesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClassesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClassesTests/Pods-SwiftHelperClassesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F47D6706B279EBD9146D8F63 /* Pods-SwiftHelperClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses/Pods-SwiftHelperClasses.release.xcconfig"; sourceTree = "<group>"; };
 		F97EB2024AEF7C3C70632D2C /* Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses-SwiftHelperClassesUITests/Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,8 +157,8 @@
 		D807B28024AB10D70048C94E /* SwiftHelperClasses */ = {
 			isa = PBXGroup;
 			children = (
-				D807B2B224AB10FA0048C94E /* AppDelegate */,
-				D807B2B324AB11010048C94E /* SceneDelegate */,
+				D807B2CF24AB1E1D0048C94E /* AppDelegate.swift */,
+				D807B2D124AB1E250048C94E /* SceneDelegate.swift */,
 				D807B2BC24AB143D0048C94E /* Libraries */,
 				D807B2B524AB117D0048C94E /* UIHelpers */,
 				D807B2B424AB11120048C94E /* Storyboard */,
@@ -195,22 +195,6 @@
 				D807B28A24AB10D90048C94E /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		D807B2B224AB10FA0048C94E /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				D807B28124AB10D70048C94E /* AppDelegate.swift */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		D807B2B324AB11010048C94E /* SceneDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				D807B28324AB10D70048C94E /* SceneDelegate.swift */,
-			);
-			path = SceneDelegate;
 			sourceTree = "<group>";
 		};
 		D807B2B424AB11120048C94E /* Storyboard */ = {
@@ -518,10 +502,10 @@
 			files = (
 				D807B28624AB10D70048C94E /* TouchAuthonticationVC.swift in Sources */,
 				D807B2CB24AB1CA90048C94E /* WTFCatView.swift in Sources */,
-				D807B28224AB10D70048C94E /* AppDelegate.swift in Sources */,
 				D807B2C124AB14A20048C94E /* AGVideoPlayerView.swift in Sources */,
+				D807B2D024AB1E1E0048C94E /* AppDelegate.swift in Sources */,
 				D807B2B924AB13420048C94E /* ImageLoader.swift in Sources */,
-				D807B28424AB10D70048C94E /* SceneDelegate.swift in Sources */,
+				D807B2D224AB1E250048C94E /* SceneDelegate.swift in Sources */,
 				D807B2B724AB11900048C94E /* UpdateVersion.swift in Sources */,
 				D807B2C624AB14F30048C94E /* LoadableView.swift in Sources */,
 				D807B2C324AB14E30048C94E /* TouchIDAuthentication.swift in Sources */,
