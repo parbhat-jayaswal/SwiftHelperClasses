@@ -1,1 +1,1 @@
-# CheckAppStoreUpdate_Sample
+# SwiftHelperClasses
