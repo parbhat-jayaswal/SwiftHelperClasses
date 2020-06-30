@@ -1,9 +1,9 @@
 //
-//  WTFCatView.swift
-//  LoadableView
+//  Extensions.swift
+//  uSnapp
 //
-//  Created by Denys Telezhkin on 05.03.16.
-//  Copyright © 2018 Denys Telezhkin. All rights reserved.
+//  Created by Prabhat on 18/04/18.
+//  Copyright © 2018 Prabhat. All rights reserved.
 //
 
 import UIKit

@@ -1,8 +1,8 @@
 //
 //  VideoPlayerView.swift
 //
-//  Created by andrii.golovin on 31.07.17.
-//  Copyright © 2017 Andrey Golovin. All rights reserved.
+//  Created by Prabhat on 31.07.17.
+//  Copyright © 2017 Prabhat. All rights reserved.
 //
 
 

@@ -1,9 +1,8 @@
 //
 //  ImageLoader.swift
-//  GenGold
 //
-//  Created by Sumant Handa on 25/05/16.
-//  Copyright © 2016 Mansa. All rights reserved.
+//  Created by Prabhat on 25/05/16.
+//  Copyright Prabhat. All rights reserved.
 //
 
 
