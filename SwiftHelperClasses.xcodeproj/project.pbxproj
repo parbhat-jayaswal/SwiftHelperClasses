@@ -26,6 +26,8 @@
 		D807B2CB24AB1CA90048C94E /* WTFCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2C924AB1CA90048C94E /* WTFCatView.swift */; };
 		D807B2D024AB1E1E0048C94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2CF24AB1E1D0048C94E /* AppDelegate.swift */; };
 		D807B2D224AB1E250048C94E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807B2D124AB1E250048C94E /* SceneDelegate.swift */; };
+		D84ACE5624C1ABF80061A0B0 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */; };
+		D84ACE5724C1ABF80061A0B0 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */; };
 		D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8969FEE24C09CD6001A57B9 /* IAPVC.swift */; };
 		DEE67A4406CEEC4305CD7EBB /* Pods_SwiftHelperClassesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E56E044951B701E605BF16 /* Pods_SwiftHelperClassesTests.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +79,8 @@
 		D807B2C924AB1CA90048C94E /* WTFCatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFCatView.swift; sourceTree = "<group>"; };
 		D807B2CF24AB1E1D0048C94E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D807B2D124AB1E250048C94E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
+		D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		D8969FEE24C09CD6001A57B9 /* IAPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPVC.swift; sourceTree = "<group>"; };
 		DCA27AED916524B2EFE40795 /* Pods-SwiftHelperClassesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClassesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClassesTests/Pods-SwiftHelperClassesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F47D6706B279EBD9146D8F63 /* Pods-SwiftHelperClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses/Pods-SwiftHelperClasses.release.xcconfig"; sourceTree = "<group>"; };
@@ -262,9 +266,19 @@
 			path = LoadView;
 			sourceTree = "<group>";
 		};
+		D84ACE5324C1ABF80061A0B0 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */,
+				D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
 		D8969FED24C09CBF001A57B9 /* IAP */ = {
 			isa = PBXGroup;
 			children = (
+				D84ACE5324C1ABF80061A0B0 /* Loader */,
 				D8969FEE24C09CD6001A57B9 /* IAPVC.swift */,
 			);
 			path = IAP;
@@ -380,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D807B2C024AB14A20048C94E /* LICENSE.md in Resources */,
+				D84ACE5624C1ABF80061A0B0 /* LoaderView.xib in Resources */,
 				D807B28E24AB10D90048C94E /* LaunchScreen.storyboard in Resources */,
 				D807B28B24AB10D90048C94E /* Assets.xcassets in Resources */,
 				D807B28924AB10D70048C94E /* Main.storyboard in Resources */,
@@ -516,6 +531,7 @@
 				D807B2C124AB14A20048C94E /* AGVideoPlayerView.swift in Sources */,
 				D807B2D024AB1E1E0048C94E /* AppDelegate.swift in Sources */,
 				D807B2B924AB13420048C94E /* ImageLoader.swift in Sources */,
+				D84ACE5724C1ABF80061A0B0 /* LoaderView.swift in Sources */,
 				D807B2D224AB1E250048C94E /* SceneDelegate.swift in Sources */,
 				D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */,
 				D807B2B724AB11900048C94E /* UpdateVersion.swift in Sources */,
