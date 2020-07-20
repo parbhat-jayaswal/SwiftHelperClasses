@@ -29,6 +29,7 @@
 		D84ACE5624C1ABF80061A0B0 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */; };
 		D84ACE5724C1ABF80061A0B0 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */; };
 		D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8969FEE24C09CD6001A57B9 /* IAPVC.swift */; };
+		D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */; };
 		DEE67A4406CEEC4305CD7EBB /* Pods_SwiftHelperClassesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E56E044951B701E605BF16 /* Pods_SwiftHelperClassesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
 		D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		D8969FEE24C09CD6001A57B9 /* IAPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPVC.swift; sourceTree = "<group>"; };
+		D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserDefault.swift; sourceTree = "<group>"; };
 		DCA27AED916524B2EFE40795 /* Pods-SwiftHelperClassesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClassesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClassesTests/Pods-SwiftHelperClassesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F47D6706B279EBD9146D8F63 /* Pods-SwiftHelperClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses/Pods-SwiftHelperClasses.release.xcconfig"; sourceTree = "<group>"; };
 		F97EB2024AEF7C3C70632D2C /* Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses-SwiftHelperClassesUITests/Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,7 +168,7 @@
 				D807B2CF24AB1E1D0048C94E /* AppDelegate.swift */,
 				D807B2D124AB1E250048C94E /* SceneDelegate.swift */,
 				D807B2BC24AB143D0048C94E /* Libraries */,
-				D807B2B524AB117D0048C94E /* UIHelpers */,
+				D807B2B524AB117D0048C94E /* Helpers */,
 				D807B2B424AB11120048C94E /* Storyboard */,
 				D807B2C724AB1C760048C94E /* Controllers */,
 				D807B28724AB10D70048C94E /* Main.storyboard */,
@@ -210,7 +212,7 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		D807B2B524AB117D0048C94E /* UIHelpers */ = {
+		D807B2B524AB117D0048C94E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				D807B2C424AB14F30048C94E /* LoadableView */,
@@ -218,8 +220,9 @@
 				D807B2BA24AB134D0048C94E /* Designable.swift */,
 				D807B2B824AB13420048C94E /* ImageLoader.swift */,
 				D807B2B624AB11900048C94E /* UpdateVersion.swift */,
+				D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */,
 			);
-			path = UIHelpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D807B2BC24AB143D0048C94E /* Libraries */ = {
@@ -538,6 +541,7 @@
 				D807B2C624AB14F30048C94E /* LoadableView.swift in Sources */,
 				D807B2C324AB14E30048C94E /* TouchIDAuthentication.swift in Sources */,
 				D807B2BB24AB134D0048C94E /* Designable.swift in Sources */,
+				D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
