@@ -31,6 +31,8 @@
 		D855ED8D24F534D500DA2FD8 /* NotificationCenterObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */; };
 		D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8969FEE24C09CD6001A57B9 /* IAPVC.swift */; };
 		D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */; };
+		D8FBFC192567A93D00D01E8B /* DropPinsOnMap_AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FBFC182567A93D00D01E8B /* DropPinsOnMap_AK.swift */; };
+		D8FBFC212567A9A100D01E8B /* ExploreSearchVC_AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FBFC202567A9A100D01E8B /* ExploreSearchVC_AK.swift */; };
 		DEE67A4406CEEC4305CD7EBB /* Pods_SwiftHelperClassesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E56E044951B701E605BF16 /* Pods_SwiftHelperClassesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +88,8 @@
 		D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterObserver.swift; sourceTree = "<group>"; };
 		D8969FEE24C09CD6001A57B9 /* IAPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPVC.swift; sourceTree = "<group>"; };
 		D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserDefault.swift; sourceTree = "<group>"; };
+		D8FBFC182567A93D00D01E8B /* DropPinsOnMap_AK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropPinsOnMap_AK.swift; sourceTree = "<group>"; };
+		D8FBFC202567A9A100D01E8B /* ExploreSearchVC_AK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreSearchVC_AK.swift; sourceTree = "<group>"; };
 		DCA27AED916524B2EFE40795 /* Pods-SwiftHelperClassesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClassesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClassesTests/Pods-SwiftHelperClassesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F47D6706B279EBD9146D8F63 /* Pods-SwiftHelperClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses/Pods-SwiftHelperClasses.release.xcconfig"; sourceTree = "<group>"; };
 		F97EB2024AEF7C3C70632D2C /* Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses-SwiftHelperClassesUITests/Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -259,6 +263,8 @@
 				D807B2CC24AB1CAE0048C94E /* LoadView */,
 				D807B28524AB10D70048C94E /* TouchAuthonticationVC.swift */,
 				D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */,
+				D8FBFC182567A93D00D01E8B /* DropPinsOnMap_AK.swift */,
+				D8FBFC202567A9A100D01E8B /* ExploreSearchVC_AK.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -544,7 +550,9 @@
 				D807B2C624AB14F30048C94E /* LoadableView.swift in Sources */,
 				D855ED8D24F534D500DA2FD8 /* NotificationCenterObserver.swift in Sources */,
 				D807B2C324AB14E30048C94E /* TouchIDAuthentication.swift in Sources */,
+				D8FBFC192567A93D00D01E8B /* DropPinsOnMap_AK.swift in Sources */,
 				D807B2BB24AB134D0048C94E /* Designable.swift in Sources */,
+				D8FBFC212567A9A100D01E8B /* ExploreSearchVC_AK.swift in Sources */,
 				D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
