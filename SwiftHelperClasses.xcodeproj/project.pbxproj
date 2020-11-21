@@ -31,8 +31,8 @@
 		D855ED8D24F534D500DA2FD8 /* NotificationCenterObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */; };
 		D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8969FEE24C09CD6001A57B9 /* IAPVC.swift */; };
 		D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */; };
+		D8F7E57C256901DC002816DF /* GlobalLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7E57B256901DC002816DF /* GlobalLoaderView.swift */; };
 		D8FBFC192567A93D00D01E8B /* DropPinsOnMap_AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FBFC182567A93D00D01E8B /* DropPinsOnMap_AK.swift */; };
-		D8FBFC212567A9A100D01E8B /* ExploreSearchVC_AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FBFC202567A9A100D01E8B /* ExploreSearchVC_AK.swift */; };
 		DEE67A4406CEEC4305CD7EBB /* Pods_SwiftHelperClassesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E56E044951B701E605BF16 /* Pods_SwiftHelperClassesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,8 +88,8 @@
 		D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterObserver.swift; sourceTree = "<group>"; };
 		D8969FEE24C09CD6001A57B9 /* IAPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPVC.swift; sourceTree = "<group>"; };
 		D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserDefault.swift; sourceTree = "<group>"; };
+		D8F7E57B256901DC002816DF /* GlobalLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalLoaderView.swift; sourceTree = "<group>"; };
 		D8FBFC182567A93D00D01E8B /* DropPinsOnMap_AK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropPinsOnMap_AK.swift; sourceTree = "<group>"; };
-		D8FBFC202567A9A100D01E8B /* ExploreSearchVC_AK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreSearchVC_AK.swift; sourceTree = "<group>"; };
 		DCA27AED916524B2EFE40795 /* Pods-SwiftHelperClassesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClassesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClassesTests/Pods-SwiftHelperClassesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F47D6706B279EBD9146D8F63 /* Pods-SwiftHelperClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses/Pods-SwiftHelperClasses.release.xcconfig"; sourceTree = "<group>"; };
 		F97EB2024AEF7C3C70632D2C /* Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftHelperClasses-SwiftHelperClassesUITests/Pods-SwiftHelperClasses-SwiftHelperClassesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 				D807B28524AB10D70048C94E /* TouchAuthonticationVC.swift */,
 				D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */,
 				D8FBFC182567A93D00D01E8B /* DropPinsOnMap_AK.swift */,
-				D8FBFC202567A9A100D01E8B /* ExploreSearchVC_AK.swift */,
+				D8F7E57B256901DC002816DF /* GlobalLoaderView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -542,6 +542,7 @@
 				D807B2CB24AB1CA90048C94E /* WTFCatView.swift in Sources */,
 				D807B2C124AB14A20048C94E /* AGVideoPlayerView.swift in Sources */,
 				D807B2D024AB1E1E0048C94E /* AppDelegate.swift in Sources */,
+				D8F7E57C256901DC002816DF /* GlobalLoaderView.swift in Sources */,
 				D807B2B924AB13420048C94E /* ImageLoader.swift in Sources */,
 				D84ACE5724C1ABF80061A0B0 /* LoaderView.swift in Sources */,
 				D807B2D224AB1E250048C94E /* SceneDelegate.swift in Sources */,
@@ -552,7 +553,6 @@
 				D807B2C324AB14E30048C94E /* TouchIDAuthentication.swift in Sources */,
 				D8FBFC192567A93D00D01E8B /* DropPinsOnMap_AK.swift in Sources */,
 				D807B2BB24AB134D0048C94E /* Designable.swift in Sources */,
-				D8FBFC212567A9A100D01E8B /* ExploreSearchVC_AK.swift in Sources */,
 				D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,9 +727,9 @@
 			baseConfigurationReference = 4BB2E114DAC89FECFD7B13E9 /* Pods-SwiftHelperClasses.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0;
-				DEVELOPMENT_TEAM = N9FGW875B5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftHelperClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -737,6 +737,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.parbhat.SwiftHelperClasses;
 				PRODUCT_NAME = "Swift Classes";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -747,9 +748,9 @@
 			baseConfigurationReference = F47D6706B279EBD9146D8F63 /* Pods-SwiftHelperClasses.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0;
-				DEVELOPMENT_TEAM = N9FGW875B5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftHelperClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -757,6 +758,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.parbhat.SwiftHelperClasses;
 				PRODUCT_NAME = "Swift Classes";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
