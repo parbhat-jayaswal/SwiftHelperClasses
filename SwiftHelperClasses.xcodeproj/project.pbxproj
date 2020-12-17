@@ -29,6 +29,8 @@
 		D84ACE5624C1ABF80061A0B0 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */; };
 		D84ACE5724C1ABF80061A0B0 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */; };
 		D855ED8D24F534D500DA2FD8 /* NotificationCenterObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */; };
+		D88D6D41258B5B800030E0B1 /* VerifyOTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D6D40258B5B800030E0B1 /* VerifyOTPVC.swift */; };
+		D88D6D49258B5BD10030E0B1 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D6D48258B5BD10030E0B1 /* Loader.swift */; };
 		D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8969FEE24C09CD6001A57B9 /* IAPVC.swift */; };
 		D8C47EC924C5A43D001E4375 /* LocalUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */; };
 		D8F7E57C256901DC002816DF /* GlobalLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7E57B256901DC002816DF /* GlobalLoaderView.swift */; };
@@ -86,6 +88,8 @@
 		D84ACE5424C1ABF80061A0B0 /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
 		D84ACE5524C1ABF80061A0B0 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		D855ED8C24F534D500DA2FD8 /* NotificationCenterObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterObserver.swift; sourceTree = "<group>"; };
+		D88D6D40258B5B800030E0B1 /* VerifyOTPVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOTPVC.swift; sourceTree = "<group>"; };
+		D88D6D48258B5BD10030E0B1 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		D8969FEE24C09CD6001A57B9 /* IAPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPVC.swift; sourceTree = "<group>"; };
 		D8C47EC824C5A43D001E4375 /* LocalUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserDefault.swift; sourceTree = "<group>"; };
 		D8F7E57B256901DC002816DF /* GlobalLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalLoaderView.swift; sourceTree = "<group>"; };
@@ -175,7 +179,6 @@
 				D807B2D124AB1E250048C94E /* SceneDelegate.swift */,
 				D807B2BC24AB143D0048C94E /* Libraries */,
 				D807B2B524AB117D0048C94E /* Helpers */,
-				D807B2B424AB11120048C94E /* Storyboard */,
 				D807B2C724AB1C760048C94E /* Controllers */,
 				D807B28724AB10D70048C94E /* Main.storyboard */,
 				D807B2B124AB10EF0048C94E /* Resources */,
@@ -211,16 +214,10 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D807B2B424AB11120048C94E /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
 		D807B2B524AB117D0048C94E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D88D6D48258B5BD10030E0B1 /* Loader.swift */,
 				D807B2C424AB14F30048C94E /* LoadableView */,
 				D807B2C224AB14E30048C94E /* TouchIDAuthentication.swift */,
 				D807B2BA24AB134D0048C94E /* Designable.swift */,
@@ -259,6 +256,7 @@
 		D807B2C724AB1C760048C94E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D88D6D40258B5B800030E0B1 /* VerifyOTPVC.swift */,
 				D8969FED24C09CBF001A57B9 /* IAP */,
 				D807B2CC24AB1CAE0048C94E /* LoadView */,
 				D807B28524AB10D70048C94E /* TouchAuthonticationVC.swift */,
@@ -546,8 +544,10 @@
 				D807B2B924AB13420048C94E /* ImageLoader.swift in Sources */,
 				D84ACE5724C1ABF80061A0B0 /* LoaderView.swift in Sources */,
 				D807B2D224AB1E250048C94E /* SceneDelegate.swift in Sources */,
+				D88D6D49258B5BD10030E0B1 /* Loader.swift in Sources */,
 				D8969FEF24C09CD6001A57B9 /* IAPVC.swift in Sources */,
 				D807B2B724AB11900048C94E /* UpdateVersion.swift in Sources */,
+				D88D6D41258B5B800030E0B1 /* VerifyOTPVC.swift in Sources */,
 				D807B2C624AB14F30048C94E /* LoadableView.swift in Sources */,
 				D855ED8D24F534D500DA2FD8 /* NotificationCenterObserver.swift in Sources */,
 				D807B2C324AB14E30048C94E /* TouchIDAuthentication.swift in Sources */,
